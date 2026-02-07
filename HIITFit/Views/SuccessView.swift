@@ -20,8 +20,8 @@ struct SuccessView: View {
                 Text("""
                      Good job completing all four exercises! Remember tomorrow's another day. So eat well and get some rest.
                      """)
-                    .foregroundStyle(.gray)
-                    .multilineTextAlignment(.center)
+                .foregroundStyle(.gray)
+                .multilineTextAlignment(.center)
             }
             VStack {
                 Spacer()
