@@ -14,7 +14,7 @@ struct WelcomeView: View {
                 HeaderView(
                     selectedTab: $selectedTab,
                     titleText: "Welcome")
-                Spacer()
+                .frame(height: geometry.size.height * 0.2)
                 ContainerView {
                     ViewThatFits {
                         VStack {

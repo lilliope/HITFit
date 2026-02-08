@@ -58,5 +58,6 @@ struct WelcomeImages_Previews: PreviewProvider {
             WelcomeView.images
             WelcomeView.welcomeText
         }
+        .previewLayout(.sizeThatFits)
     }
 }

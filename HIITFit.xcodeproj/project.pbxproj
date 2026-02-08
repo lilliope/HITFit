@@ -76,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		59149E4F2F37C906002D8AFD /* History Views */ = {
+			isa = PBXGroup;
+			children = (
+				591B0AD52F29C768003CD37D /* HistoryView.swift */,
+			);
+			path = "History Views";
+			sourceTree = "<group>";
+		};
 		591B0AE42F29D9B2003CD37D /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,10 +136,10 @@
 		597703EC2F35B0C100B653B4 /* Styling */ = {
 			isa = PBXGroup;
 			children = (
-				597703ED2F35B0DE00B653B4 /* RaisedButton.swift */,
-				59149E472F3688F7002D8AFD /* EmbossedButton.swift */,
 				59149E492F36917A002D8AFD /* ContainerView.swift */,
+				59149E472F3688F7002D8AFD /* EmbossedButton.swift */,
 				59149E4D2F3697C7002D8AFD /* GradientBackground.swift */,
+				597703ED2F35B0DE00B653B4 /* RaisedButton.swift */,
 			);
 			path = Styling;
 			sourceTree = "<group>";
@@ -139,11 +147,11 @@
 		59E802A92F287481003374E2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				59149E4F2F37C906002D8AFD /* History Views */,
 				597703EC2F35B0C100B653B4 /* Styling */,
 				59312E262F286DE000DB6299 /* ContentView.swift */,
 				59E802A72F287457003374E2 /* ExerciseView.swift */,
 				59BEBD552F29866500FF0341 /* HeaderView.swift */,
-				591B0AD52F29C768003CD37D /* HistoryView.swift */,
 				591B0AD32F29938E003CD37D /* RatingView.swift */,
 				59AFDCFC2F2A04D600B210D9 /* SuccessView.swift */,
 				59E4C82B2F3261480019DFED /* TimerView.swift */,
