@@ -1,9 +1,6 @@
-//
 //  GradientBackground.swift
 //  HIITFit
-//
 //  Created by Loi Ton on 2/6/26.
-//
 
 import SwiftUI
 

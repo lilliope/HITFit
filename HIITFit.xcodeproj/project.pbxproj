@@ -11,6 +11,9 @@
 		59149E4A2F36917A002D8AFD /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59149E492F36917A002D8AFD /* ContainerView.swift */; };
 		59149E4C2F36939D002D8AFD /* WelcomeImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59149E4B2F36939D002D8AFD /* WelcomeImages.swift */; };
 		59149E4E2F3697C7002D8AFD /* GradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59149E4D2F3697C7002D8AFD /* GradientBackground.swift */; };
+		59149E512F384D07002D8AFD /* AddHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59149E502F384D07002D8AFD /* AddHistoryView.swift */; };
+		59149E532F385039002D8AFD /* BarChartDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59149E522F385039002D8AFD /* BarChartDayView.swift */; };
+		59149E552F3851D3002D8AFD /* BarChartWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59149E542F3851D3002D8AFD /* BarChartWeekView.swift */; };
 		591B0AD22F29887C003CD37D /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B0AD12F29887C003CD37D /* Exercise.swift */; };
 		591B0AD42F29938E003CD37D /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B0AD32F29938E003CD37D /* RatingView.swift */; };
 		591B0AD62F29C768003CD37D /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B0AD52F29C768003CD37D /* HistoryView.swift */; };
@@ -40,6 +43,9 @@
 		59149E492F36917A002D8AFD /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
 		59149E4B2F36939D002D8AFD /* WelcomeImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeImages.swift; sourceTree = "<group>"; };
 		59149E4D2F3697C7002D8AFD /* GradientBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBackground.swift; sourceTree = "<group>"; };
+		59149E502F384D07002D8AFD /* AddHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHistoryView.swift; sourceTree = "<group>"; };
+		59149E522F385039002D8AFD /* BarChartDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartDayView.swift; sourceTree = "<group>"; };
+		59149E542F3851D3002D8AFD /* BarChartWeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartWeekView.swift; sourceTree = "<group>"; };
 		591B0AD12F29887C003CD37D /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 		591B0AD32F29938E003CD37D /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		591B0AD52F29C768003CD37D /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
@@ -79,6 +85,9 @@
 		59149E4F2F37C906002D8AFD /* History Views */ = {
 			isa = PBXGroup;
 			children = (
+				59149E502F384D07002D8AFD /* AddHistoryView.swift */,
+				59149E522F385039002D8AFD /* BarChartDayView.swift */,
+				59149E542F3851D3002D8AFD /* BarChartWeekView.swift */,
 				591B0AD52F29C768003CD37D /* HistoryView.swift */,
 			);
 			path = "History Views";
@@ -247,6 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59149E512F384D07002D8AFD /* AddHistoryView.swift in Sources */,
 				59E4C82C2F3261480019DFED /* TimerView.swift in Sources */,
 				597703EE2F35B0DE00B653B4 /* RaisedButton.swift in Sources */,
 				59BEBD562F29866500FF0341 /* HeaderView.swift in Sources */,
@@ -262,9 +272,11 @@
 				591B0AD82F29C92A003CD37D /* DateExtension.swift in Sources */,
 				59E802A62F28743E003374E2 /* WelcomeView.swift in Sources */,
 				591B0AE12F29D5FE003CD37D /* ImageExtension.swift in Sources */,
+				59149E532F385039002D8AFD /* BarChartDayView.swift in Sources */,
 				59312E252F286DE000DB6299 /* HIITFitApp.swift in Sources */,
 				591B0AD22F29887C003CD37D /* Exercise.swift in Sources */,
 				591B0AD42F29938E003CD37D /* RatingView.swift in Sources */,
+				59149E552F3851D3002D8AFD /* BarChartWeekView.swift in Sources */,
 				59149E482F3688F7002D8AFD /* EmbossedButton.swift in Sources */,
 				591B0ADA2F29CBDA003CD37D /* VideoPlayerView.swift in Sources */,
 			);
