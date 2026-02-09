@@ -87,7 +87,6 @@
 			children = (
 				59149E502F384D07002D8AFD /* AddHistoryView.swift */,
 				59149E522F385039002D8AFD /* BarChartDayView.swift */,
-				59149E542F3851D3002D8AFD /* BarChartWeekView.swift */,
 				591B0AD52F29C768003CD37D /* HistoryView.swift */,
 			);
 			path = "History Views";
@@ -142,6 +141,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		596E0DBE2F397B36005F9830 /* Report Views */ = {
+			isa = PBXGroup;
+			children = (
+				59149E542F3851D3002D8AFD /* BarChartWeekView.swift */,
+			);
+			path = "Report Views";
+			sourceTree = "<group>";
+		};
 		597703EC2F35B0C100B653B4 /* Styling */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				59149E4F2F37C906002D8AFD /* History Views */,
+				596E0DBE2F397B36005F9830 /* Report Views */,
 				597703EC2F35B0C100B653B4 /* Styling */,
 				59312E262F286DE000DB6299 /* ContentView.swift */,
 				59E802A72F287457003374E2 /* ExerciseView.swift */,

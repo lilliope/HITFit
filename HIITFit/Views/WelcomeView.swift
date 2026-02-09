@@ -6,6 +6,7 @@ import SwiftUI
 
 struct WelcomeView: View {
     @State private var showHistory = false
+    @State private var showReports = false
     @Binding var selectedTab: Int
     
     var body: some View {
@@ -22,13 +23,13 @@ struct WelcomeView: View {
                             WelcomeView.welcomeText
                             getStartedButton
                             Spacer()
-                            historyButton
+                            buttonHStack
                         }
                         VStack {
                             WelcomeView.welcomeText
                             getStartedButton
                             Spacer()
-                            historyButton
+                            buttonHStack
                         }
                     }
                 }
@@ -36,6 +37,9 @@ struct WelcomeView: View {
             }
             .sheet(isPresented: $showHistory) {
                 HistoryView(showHistory: $showHistory)
+            }
+            .sheet(isPresented: $showReports) {
+                BarChartWeekView()
             }
         }
     }
@@ -45,6 +49,14 @@ struct WelcomeView: View {
             selectedTab = 0
         }
         .padding()
+    }
+    
+    var buttonHStack: some View {
+        HStack(spacing: 40) {
+            historyButton
+            reportsButton
+        }
+        .padding(15)
     }
     
     var historyButton: some View {
@@ -57,6 +69,17 @@ struct WelcomeView: View {
                     .padding([.leading, .trailing], 5)
             })
             .padding(.bottom, 10)
+            .buttonStyle(EmbossedButtonStyle())
+    }
+    
+    var reportsButton: some View {
+        Button(
+            action: {
+                showReports = true
+            }, label: {
+                Text("Reports")
+                    .fontWeight(.bold)
+            })
             .buttonStyle(EmbossedButtonStyle())
     }
 }

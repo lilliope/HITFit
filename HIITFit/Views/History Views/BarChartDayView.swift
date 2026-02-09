@@ -14,7 +14,7 @@ struct BarChartDayView: View {
                 BarMark(
                     x: .value(name, name),
                     y: .value("Total Count", day.countExercise(exercise: name)))
-                .foregroundStyle(Color("historyBar"))
+                .foregroundStyle(Color("history-bar"))
             }
             RuleMark(y: .value("Exercise", 1))
                 .foregroundStyle(.red)
