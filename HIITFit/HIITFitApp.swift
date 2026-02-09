@@ -11,7 +11,6 @@ struct HIITFitApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .buttonStyle(.raised)
                 .onAppear {
                     print(URL.documentsDirectory)
                 }
